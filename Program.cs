@@ -39,7 +39,7 @@ void Task29()
     int size = ReadIntFromConsole("Введите размер массива: ");
     int[] array = new int[size];
 
-    FillArrayForConsole(array);
+    FillArrayFromConsole(array);
     PrintIntArray(array);
 }
 
@@ -72,7 +72,7 @@ int GetSumNumbers(int currentNum)
     return sum;
 }
 
-void FillArrayForConsole(int[] arr)
+void FillArrayFromConsole(int[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
     {
